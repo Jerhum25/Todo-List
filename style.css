@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    text-align: center;
+}
+
+main .container {
+    background-color: #333;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
+
+}
+
+main .container input {
+    width: 70%;
+    height: 25px;
+    margin-right: 10px;
+    padding-left: 5px;
+    outline: none;
+}
+
+main .container button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(139, 22, 22);
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container-nouvelle-tache {
+    width: 30%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+main .container-nouvelle-tache .nouvelle-tache {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: aliceblue;
+    margin-bottom: 3px;
+}
+
+main .container-nouvelle-tache .nouvelle-tache p{
+    flex: 1;
+    text-align: left;
+}
+
+
+main .container-nouvelle-tache .nouvelle-tache .btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    color: #bbb;
+}
+
+main .container-nouvelle-tache .nouvelle-tache .btn-archive {
+    background-color: green;
+}
+
+main .container-nouvelle-tache .nouvelle-tache .btn-delete {
+    background-color: red;
+    margin-left: 8px;
+    display: block;
+    justify-content: end;
+}
+
+.text-through {
+    text-decoration: line-through;
+}
+
+
+
+@media screen and (max-width: 492px) {
+    main .container {
+        width: 100%;
+    }
+
+    main .container-nouvelle-tache {
+        width: 100%;
+    }
+
+}
