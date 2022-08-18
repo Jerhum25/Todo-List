@@ -69,7 +69,7 @@ main .container-nouvelle-tache .nouvelle-tache {
     margin-bottom: 3px;
 }
 
-main .container-nouvelle-tache .nouvelle-tache p{
+main .container-nouvelle-tache .nouvelle-tache p {
     flex: 1;
     text-align: left;
     font-size: 20px;
@@ -79,6 +79,7 @@ main .container-nouvelle-tache .nouvelle-tache p{
 main .container-nouvelle-tache .nouvelle-tache .btn {
     width: 40px;
     height: 40px;
+    font-size: 22px;
     border-radius: 50%;
     border: none;
     color: #eee;
@@ -109,10 +110,12 @@ main .container-nouvelle-tache .nouvelle-tache .btn-delete {
     main .container-nouvelle-tache {
         width: 100%;
     }
-    body{
+
+    body {
         background-color: #222;
     }
-    header h1{
+
+    header h1 {
         color: #eee;
     }
 }
