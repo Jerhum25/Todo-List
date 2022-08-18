@@ -64,6 +64,7 @@ main .container-nouvelle-tache .nouvelle-tache {
     width: 100%;
     padding: 10px;
     display: flex;
+    align-items: center;
     background-color: aliceblue;
     margin-bottom: 3px;
 }
@@ -80,7 +81,7 @@ main .container-nouvelle-tache .nouvelle-tache .btn {
     height: 30px;
     border-radius: 50%;
     border: none;
-    color: #bbb;
+    color: #eee;
 }
 
 main .container-nouvelle-tache .nouvelle-tache .btn-archive {
@@ -108,5 +109,10 @@ main .container-nouvelle-tache .nouvelle-tache .btn-delete {
     main .container-nouvelle-tache {
         width: 100%;
     }
-
+    body{
+        background-color: #222;
+    }
+    header h1{
+        color: #eee;
+    }
 }
