@@ -38,14 +38,14 @@ main .container input {
 }
 
 main .container button {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: rgb(139, 22, 22);
     border: none;
     color: white;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,8 +77,8 @@ main .container-nouvelle-tache .nouvelle-tache p{
 
 
 main .container-nouvelle-tache .nouvelle-tache .btn {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: none;
     color: #eee;
